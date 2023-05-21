@@ -1,0 +1,195 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navigate {
+  color: #fff;
+  background-color: #3b0062;
+  padding: 4px 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+}
+.navigate .logo {
+  font-size: 18px;
+}
+.navigate .link {
+  list-style: none;
+  display: flex;
+  text-align: center;
+  gap: 20px;
+}
+.navigate .link a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.form {
+  display: block;
+  margin: 180px auto;
+  padding: 10px;
+  border: 1px solid #333;
+  border-radius: 8px;
+  width: 400px;
+}
+
+.form label {
+  text-align: left;
+  display: block;
+}
+
+.form input{
+  padding: 4px;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.btn {
+  color: #fff;
+  background-color: #3b0062;
+  cursor: pointer;
+  border-radius: 4px;
+  padding: 6px;
+  margin-top: 5px;
+}
+.btn:hover {
+  opacity: 0.6;
+}
+
+.active {
+  color: #f485b1 !important;
+}
+
+.message-error {
+  color: #f485b1;
+  font-size: 13px;
+}
+
+.home {
+  margin: 50px auto;
+}
+.logo{
+  cursor: pointer;
+}
+.title {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  gap: 20px;
+  justify-content: center;
+}
+.title span {
+  border: 1px solid #333;
+  width: 300px;
+  padding: 4px;
+  text-align: left;
+}
+.btn-add {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+  color: #333;
+  background-color: #fab83f;
+  border: none;
+  padding: 8px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.not-found {
+  margin: 10px auto;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* work with post */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #404040;
+}
+
+.space {
+  height: 100px;
+}
+
+.post {
+  position: absolute;
+  width: 600px;
+  left: 50%;
+  transform: translateX(-50%);
+  text-align: center;
+  background-color: #fff;
+  z-index: 10;
+}
+
+.header {
+  height: 40px;
+  padding: 8px 20px;
+  font-size: 20px;
+  font-weight: 500;
+  text-align: left;
+}
+
+.content {
+  margin: 0 20px;
+}
+
+.form-control label{
+  display: block;
+  text-align: left;
+  margin-top: 10px;
+}
+.form-control input{
+  /* display: block; */
+  width: 100%;
+  padding: 4px 8px;
+  border: 1px solid #333;
+  outline: none;
+}
+.form-control textarea {
+  display: block;
+  width: 100%;
+  padding: 4px 8px;
+  border: 1px solid #333;
+  outline: none;
+}
+.input-file {
+  /* border: 1px solid #333; */
+}
+.form-control{
+  text-align: left;
+}
+
+.content-image {
+  height: 100px;
+  margin: 10px 0;
+}
+.content-image img {
+  height: 100px;
+}
+
+.footer {
+  display: flex;
+  justify-content: flex-end;
+  gap: 20px;
+  padding: 30px 20px 20px 0;;
+}
+
+.footer button {
+  border: none;
+  padding: 8px 10px;
+  cursor: pointer;
+}
+.footer button:first-child {
+  color: #e76a41;
+}
+.footer button:last-child {
+  color: #3a5fe7;
+}
